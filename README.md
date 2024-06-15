@@ -16,13 +16,13 @@ To set up this project locally, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/AakibAlam/cv-shortlister-frontend.git
+   git clone https://github.com/its-me-navee/Shortlist_Resume_FrontEnd.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd cv-shortlister-frontend
+   cd Shortlist_Resume_FrontEnd
    ```
 
 3. Install dependencies:
@@ -41,6 +41,6 @@ To set up this project locally, follow these steps:
 
 ## Backend Part of this project
 
-Github Repo: https://github.com/AakibAlam/cv-shortlister-backend/
+Github Repo: https://github.com/its-me-navee/Shortlist_Resume_FrontEnd
 
-Deployed Link: https://cv-shortlister-backend.azurewebsites.net/
+Deployed Link: 
