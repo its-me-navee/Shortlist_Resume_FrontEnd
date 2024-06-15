@@ -1,0 +1,8 @@
+.navbar {
+  background-color: rgba(199, 206, 202, 0.999);
+  height: 80px;
+}
+
+body {
+  overflow-x: hidden;
+}
