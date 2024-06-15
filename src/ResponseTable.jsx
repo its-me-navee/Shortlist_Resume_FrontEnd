@@ -18,10 +18,10 @@ function ResponseTable() {
 
   const pollServer = async () => {
     try {
-      const response = await axios.get("http://localhost:8000/poll/");
-      // const response = await axios.get(
-      //   "https://cv-shortlister-backend.azurewebsites.net/poll/"
-      // );
+      // const response = await axios.get("http://localhost:8000/poll/");
+      const response = await axios.get(
+        "https://shortlistresumebackend.azurewebsites.net/poll/"
+      );
       setResult((prevResult) => [...prevResult, ...response.data]);
     } catch (error) {
       console.error("Error polling server:", error);
