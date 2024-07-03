@@ -12,7 +12,7 @@ const OverlayCard = ({ onClose, selectedFiles }) => {
     try {
       axios.post(
         // "http://localhost:8000/submit/",
-        "https://wonderful-field-0e0b37400.5.azurestaticapps.net/submit/",
+        "https://shortlistresumebackend.azurewebsites.net/submit/",
         formData,
         {
           headers: {
