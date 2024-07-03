@@ -20,7 +20,7 @@ function ResponseTable() {
     try {
       // const response = await axios.get("http://localhost:8000/poll/");
       const response = await axios.get(
-        "https://shortlistresumebackend.azurewebsites.net/poll/"
+        "https://wonderful-field-0e0b37400.5.azurestaticapps.net/poll/"
       );
       setResult((prevResult) => [...prevResult, ...response.data]);
     } catch (error) {
